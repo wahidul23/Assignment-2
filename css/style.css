@@ -1,0 +1,96 @@
+h1, h3, h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: bold;
+}
+header{
+    background-color: #FFFBF0;
+}
+.container{
+    margin-bottom: 100px;
+}
+.nav-items{
+    
+    font-weight: bold;
+    
+}
+.nav-items li{
+    padding-left: 1em;
+}
+
+.marketing-img img{
+    height: 90px;
+}
+.marketing-part{
+    border-radius: 1em;
+    padding:.5em 2em !important;
+    padding-left: 0;
+}
+
+.marketing-text{
+    margin-left: 2em;
+}
+.shopping-image{
+    padding-top: 2em ;
+}
+.btn{
+    background-color:#A4BC46;
+    color:white;
+    border-radius: .5em;
+    font-weight: bold;
+    width: 55;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.special-color{
+    color: #FABE4C;
+}
+.special-text{
+    font-weight: bold;
+    font-size: 60px;
+}
+.card-footer h2{
+    font-weight: bold;
+    color: #FABE4C;
+}
+.card-footer{
+    padding-left: .5em;
+}
+.check-out{
+    height: 350px;
+    border-radius: 1em;
+    padding-top: 1em;
+}
+.check-out-img{
+    height: 370px;
+    border-radius: 1em;
+}
+.feedback{
+    background-color:#D133FF;
+    border-radius: .5em;
+    
+}
+@media(max-width: 764px;){
+    .marketing-img{
+        margin-top: 1em;
+    }
+    
+}
+@media(max-width:575px){
+    .marketing-part{
+        text-align: center;
+        padding:.5em;
+    }
+    .products{
+        text-align: center;
+    }
+
+    .form-height{
+        column:25;
+        
+    }
+}
+
